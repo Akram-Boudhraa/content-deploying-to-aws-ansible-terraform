@@ -14,7 +14,7 @@
         - java-1.8.0-openjdk-devel
         - git
       
-    - name: clone repo
+    - name: clone repository
       git:
         repo: https://github.com/linuxacademy/content-terraform-jenkins.git
         dest: /tmp/jenkins
